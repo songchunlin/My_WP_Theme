@@ -1,8 +1,8 @@
 /*
 Theme Name: Twenty Twelve
 Theme URI: http://wordpress.org/themes/twentytwelve
-Author: Modified by ËÎ´ºÁÖ
-Author URI: http://www.songchunlin.net/
+Author: Modified by SONG CHUNLIN
+Author URI: http://songchunlin.net/
 Description: The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
 Version: 2.0
 License: GNU General Public License v2 or later
@@ -70,12 +70,12 @@ blockquote,
 q {
   quotes: none;
 quotes: none;
-background:#F4F5F7£»
+background:#F4F5F7ï¼›
 background-position:center;
 margin:0.5em 5px;
 padding:20px 20px 20px 20px;
 width: 87.5%;
-font-family: Helvetica, Microsoft YaHei, Î¢ÈíÑÅºÚ, Heiti, ¡°ºÚÌå¡±, sans-serif;
+font-family: Helvetica, Microsoft YaHei, å¾®è½¯é›…é»‘, Heiti, â€œé»‘ä½“â€, sans-serif;
 font-size:13px;
 font-size:0.928571428rem;
 font-weight: 300;
@@ -252,7 +252,7 @@ input,
 textarea {
   border: 1px solid #ccc;
   border-radius: 3px;
-  font-family: Helvetica, Microsoft YaHei, Î¢ÈíÑÅºÚ, Heiti, ¡°ºÚÌå¡±, sans-serif;
+  font-family: Helvetica, Microsoft YaHei, å¾®è½¯é›…é»‘, Heiti, â€œé»‘ä½“â€, sans-serif;
   padding: 6px;
   padding: 0.428571429rem;
 }
@@ -405,8 +405,8 @@ img.header-image,
 .author-avatar img,
 img.wp-post-image {
   /* Add fancy borders to all WordPress-added images but not things like badges and icons and the like */
-  border-radius: 3px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 03px;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.);
 }
 .wp-caption {
   max-width: 100%; /* Keep wide captions from overflowing their container. */
@@ -529,24 +529,24 @@ body {
   font-size: 14px;
   font-size: 1rem;
 line-height:1.8;
-  font-family:Helvetica,Microsoft YaHei, Î¢ÈíÑÅºÚ, Heiti, ¡°ºÚÌå¡±, san-serif;
+  font-family:Helvetica,Microsoft YaHei, å¾®è½¯é›…é»‘, Heiti, â€œé»‘ä½“â€, san-serif;
   text-rendering: optimizeLegibility;
   color: #171717;
 }
 body.custom-font-enabled {
-  font-family:Helvetica, Microsoft YaHei, Î¢ÈíÑÅºÚ, Heiti, ¡°ºÚÌå¡±, san-serif;
+  font-family:Helvetica, Microsoft YaHei, å¾®è½¯é›…é»‘, Heiti, â€œé»‘ä½“â€, san-serif;
 }
 
 a {
   outline: none;
-  color: #171717;
+  color: #505050;
 text-decoration:none;
-border-width: 0 0 1px 0;
-      border-style: none none solid none;
+border-width: 0 0 0px 0;
+      border-style: none none none none;
       border-color: #d1d1d1;
 }
 a:hover {
-  color: #8c8c8c;
+  color: #51aded;
 text-decoration:none;
 }
 
@@ -588,8 +588,8 @@ text-decoration:none;
 
 /* Header */
 .site-header {
-  padding: 28px 0;
-  padding: 2.000000000rem 0;
+  padding: 35px 7px 7px 7px;
+  padding: 2.5rem 0.5rem 0.5rem 0.5rem;
 }
 .site-header h1,
 .site-header h2 {
@@ -608,22 +608,23 @@ border-width: 0;
 }
 .site-header h1 a:hover,
 .site-header h2 a:hover {
-  color: #4d90af;
+  color: #51aded;
 border-width: 0;
       border-style: none;
 }
 .site-header h1 {
-font-family: Helvetica, Microsoft YaHei, Î¢ÈíÑÅºÚ;
-  font-size: 36px;
-        font-size: 2.571428571rem;
-  line-height: 1.285714286;
+  font-family: Georgia,"KaiTi","æ¥·ä½“";
+  font-size: 56px;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 3;
   margin-bottom: 14px;
   margin-bottom: 1rem;
-border-width: 0;
-      border-style: none;
+  border-width: 0;
+  border-style: none;
 }
 .site-header h2 {
-font-family: Helvetica, Microsoft YaHei, Î¢ÈíÑÅºÚ;
+font-family: Helvetica, Microsoft YaHei, å¾®è½¯é›…é»‘;
   font-weight: normal;
   font-size: 15px;
   font-size: 1.071428571rem;
@@ -636,7 +637,11 @@ border-width: 0;
 .header-image {
   margin-top: 24px;
   margin-top: 1.714285714rem;
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  align: center;
 }
 
 /* Navigation Menu */
@@ -658,7 +663,7 @@ text-align: center;
 
 }
 .main-navigation a:hover {
-  color: #4d90af;
+  color: #51aded;
 
 }
 .main-navigation ul.nav-menu,
@@ -715,7 +720,7 @@ section[role="banner"] {
 text-decoration: none;
 }
 .widget-area .widget a:hover {
-  color: #4d90af;
+  color: #51aded;
 text-decoration: none;
 }
 .widget-area .widget a:visited {
@@ -731,11 +736,11 @@ footer[role="contentinfo"] {
   clear: both;
   font-size: 12px;
   font-size: 0.857142857rem;
-  line-height: 2;
-    max-width: 672px;
-    max-width: 48rem;
-  margin-top: 24px;
-  margin-top: 1.714285714rem;
+  line-height: 1;
+    max-width: 560px;
+    max-width: 40rem;
+  margin-top: 14px;
+  margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
   padding: 24px 0;
@@ -752,7 +757,7 @@ border-width: 0;
       border-style: none;
 }
 footer[role="contentinfo"] a:hover {
-  color: #303030;
+  color: #51aded;
 text-decoration:none;
 border-width: 0;
       border-style: none;
@@ -774,12 +779,13 @@ border-width: 0;
   margin-bottom: 1.714285714rem;
 }
 .entry-header .entry-title {
-font-family: Georgia,"KaiTi","¿¬Ìå";
- font-style: normal;
-  font-size: 26px;
-  font-size: 1.857142857rem;
+font-family:  Helvetica, Microsoft YaHei, å¾®è½¯é›…é»‘, sans-serif;
+  font-size: 21px;
+  font-size: 1.5rem;
+font-weight:400;
+text-rendering: optimizeLegibility;
+color: #333;
   line-height: 1.2;
-  font-weight: 700;
 text-align: center;
       
 }
@@ -790,7 +796,7 @@ text-align: center;
 .entry-header .entry-format {
   margin-top: 24px;
   margin-top: 1.714285714rem;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .entry-header .comments-link {
@@ -808,7 +814,7 @@ visibility: hidden;
 }
 .comments-link a:hover,
 .entry-meta a:hover {
-  color: #4d90af;
+  color: #51aded;
 text-decoration:none;
 }
 
@@ -848,6 +854,8 @@ article.sticky .featured-post {
 .comment-content h1 {
   font-size: 21px;
   font-size: 1.5rem;
+font-weight:400;
+  color: #333;
   line-height: 1.5;
 }
 .entry-content h2,
@@ -946,7 +954,7 @@ text-align: center;
 }
 .entry-content code,
 .comment-content code {
-  font-family: Helvetica, Microsoft YaHei, Î¢ÈíÑÅºÚ, Heiti, ¡°ºÚÌå¡±, sans-serif;
+  font-family: Helvetica, Microsoft YaHei, å¾®è½¯é›…é»‘, Heiti, â€œé»‘ä½“â€, sans-serif;
   font-size: 12px;
   font-size: 0.857142857rem;
   line-height: 1.5;
@@ -955,7 +963,7 @@ text-align: center;
 .comment-content pre {
   border: 1px solid #ededed;
   color: #666;
-  font-family: Helvetica, Microsoft YaHei, Î¢ÈíÑÅºÚ, Heiti, ¡°ºÚÌå¡±, sans-serif;
+  font-family: Helvetica, Microsoft YaHei, å¾®è½¯é›…é»‘, Heiti, â€œé»‘ä½“â€, sans-serif;
   font-size: 12px;
   font-size: 0.857142857rem;
   line-height: 2;
@@ -1087,7 +1095,7 @@ footer.entry-meta {
 	    font-weight: normal;
 	    line-height: 1.3em;
 	    color: #666;
-	    font-family: Helvetica, Microsoft YaHei, Î¢ÈíÑÅºÚ, Heiti, ¡°ºÚÌå¡±, sans-serif;
+	    font-family: Helvetica, Microsoft YaHei, å¾®è½¯é›…é»‘, Heiti, â€œé»‘ä½“â€, sans-serif;
 	    margin: 1em 0 .5em 0;
 	    letter-spacing: .1em;
 	    margin-bottom: 1em;
@@ -1124,7 +1132,7 @@ footer.entry-meta {
 	p {
 	    line-height: 1.45em;
 	    margin: .7em 0 0 0;
-	    font-family: Helvetica, Microsoft YaHei, Î¢ÈíÑÅºÚ, Heiti, ¡°ºÚÌå¡±, sans-serif;
+	    font-family: Helvetica, Microsoft YaHei, å¾®è½¯é›…é»‘, Heiti, â€œé»‘ä½“â€, sans-serif;
 	    font-size: 14px;
 	    font-size: 1rem;
 	    color: #333;
@@ -1305,7 +1313,7 @@ border-width: 0;
   color: #757575;
 }
 .format-status .entry-header header a:hover {
-  color: #4d90af;
+  color: #51aded;
 text-decoration:none;
 }
 .format-status .entry-header img {
@@ -1368,7 +1376,7 @@ text-decoration:none;
   color: #5e5e5e;
 }
 .comments-area article header a:hover {
-  color: #4d90af;
+  color: #51aded;
 }
 .comments-area article header cite a {
   color: #303030;
@@ -1417,7 +1425,7 @@ a.comment-edit-link {
 }
 a.comment-reply-link:hover,
 a.comment-edit-link:hover {
-  color: #4d90af;
+  color: #51aded;
 }
 .commentlist .pingback {
   line-height: 1.714285714;
@@ -1513,7 +1521,7 @@ a.comment-edit-link:hover {
   color: #757575;
 }
 .template-front-page .widget-area .widget li a:hover {
-  color: #4d90af;
+  color: #51aded;
 }
 .template-front-page .widget-area .widget_text img {
   float: left;
@@ -1521,68 +1529,6 @@ a.comment-edit-link:hover {
   margin: 0.571428571rem 1.714285714rem 0.571428571rem 0;
 }
 
-
-/* =Widgets
--------------------------------------------------------------- */
-
-.widget-area .widget ul ul {
-  margin-left: 12px;
-  margin-left: 0.857142857rem;
-}
-.widget_rss li {
-  margin: 12px 0;
-  margin: 0.857142857rem 0;
-}
-.widget_recent_entries .post-date,
-.widget_rss .rss-date {
-  color: #aaa;
-  font-size: 11px;
-  font-size: 0.785714286rem;
-  margin-left: 12px;
-  margin-left: 0.857142857rem;
-}
-#wp-calendar {
-  margin: 0;
-  width: 100%;
-  font-size: 13px;
-  font-size: 0.928571429rem;
-  line-height: 1.846153846;
-  color: #686868;
-}
-#wp-calendar th,
-#wp-calendar td,
-#wp-calendar caption {
-  text-align: left;
-}
-#wp-calendar #next {
-  padding-right: 24px;
-  padding-right: 1.714285714rem;
-  text-align: right;
-}
-#wp-calendar tbody a {
-  font-weight:bold;
-  color:#000000;
-}
-/*µ±Ìì·¢±íÓĞÎÄÕÂµÄ*/
-#wp-calendar #today {
-  background:none;
-  color:#686868;
-  font-weight:bold;
-}
-/*µ±ÌìÈÕÆÚ±³¾°É«£¬ÒÔ¼°Ç°¾°É«*/
-.widget_search label {
-  display: block;
-  font-size: 13px;
-  font-size: 0.928571429rem;
-  line-height: 1.846153846;
-}
-.widget_twitter li {
-  list-style-type: none;
-}
-.widget_twitter .timesince {
-  display: block;
-  text-align: right;
-}
 
 
 /* =Plugins
@@ -1611,8 +1557,8 @@ img#wpstats {
   }
   .site {
     margin: 0 auto;
-  max-width: 672px;
-  max-width: 48rem;
+  max-width: 700px;
+  max-width: 50rem;
     overflow: hidden;
   }
   .site-content {
@@ -1718,11 +1664,13 @@ position:relative;
     display: none;
   }
   .entry-header .entry-title {
-font-family: Georgia,"KaiTi","¿¬Ìå";
-font-style: normal;
-    font-size: 26px;
-    font-size: 1.857142857rem;
-text-align: center;
+  font-family: Helvetica, Microsoft YaHei, å¾®è½¯é›…é»‘, sans-serif;
+  font-size: 21px;
+  font-size: 1.5rem;
+font-weight:400;
+  text-rendering: optimizeLegibility;
+  color: #333;
+  text-align: center;
   }
   #respond form input[type="text"] {
     width: 46.333333333%;
