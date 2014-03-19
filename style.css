@@ -531,7 +531,7 @@ body {
 line-height:1.8;
   font-family:Helvetica,Microsoft YaHei, 微软雅黑, Heiti, “黑体”, san-serif;
   text-rendering: optimizeLegibility;
-  color: #171717;
+  color: #101010;
 }
 body.custom-font-enabled {
   font-family:Helvetica, Microsoft YaHei, 微软雅黑, Heiti, “黑体”, san-serif;
@@ -1135,7 +1135,7 @@ footer.entry-meta {
 	    font-family: Helvetica, Microsoft YaHei, 微软雅黑, Heiti, “黑体”, sans-serif;
 	    font-size: 14px;
 	    font-size: 1rem;
-	    color: #333;
+	    color: #101010;
 	    -webkit-font-smoothing: antialiased;
 	}
 	
