@@ -1,7 +1,7 @@
 /*
 Theme Name: Twenty Twelve
 Theme URI: http://wordpress.org/themes/twentytwelve
-Author: Modified by SONG CHUNLIN
+Author: Modified by 宋春林
 Author URI: http://songchunlin.net/
 Description: The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
 Version: 2.0
@@ -75,7 +75,8 @@ background-position:center;
 margin:0.5em 5px;
 padding:20px 20px 20px 20px;
 width: 87.5%;
-font-family: Helvetica, Microsoft YaHei, 微软雅黑, Heiti, “黑体”, sans-serif;
+font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, Kaiti, sans-serif;
+-webkit-font-smoothing:antialiased;
 font-size:13px;
 font-size:0.928571428rem;
 font-weight: 300;
@@ -252,9 +253,10 @@ input,
 textarea {
   border: 1px solid #ccc;
   border-radius: 3px;
-  font-family: Helvetica, Microsoft YaHei, 微软雅黑, Heiti, “黑体”, sans-serif;
+  font-family: normal, 'Avenir Next', Avenir,'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, Kaiti, sans-serif;
   padding: 6px;
   padding: 0.428571429rem;
+-webkit-font-smoothing:antialiased;
 }
 button,
 input {
@@ -528,16 +530,16 @@ html {
 body {
   font-size: 14px;
   font-size: 1rem;
-line-height:1.8;
-  font-family:Helvetica,Microsoft YaHei, 微软雅黑, Heiti, “黑体”, san-serif;
+line-height:1.5;
+  font-family:normal, 'Avenir Next', Avenir,'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, Kaiti, sans-serif;
   text-rendering: optimizeLegibility;
-  color: #101010;
+  color: #202020;
 }
 body.custom-font-enabled {
-  font-family:Helvetica, Microsoft YaHei, 微软雅黑, Heiti, “黑体”, san-serif;
+  font-family:normal, 'Avenir Next', Avenir,'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, Kaiti, sans-serif;
 }
 
-a {
+a{
   outline: none;
   color: #505050;
 text-decoration:none;
@@ -613,7 +615,8 @@ border-width: 0;
       border-style: none;
 }
 .site-header h1 {
-  font-family: Georgia,"KaiTi","楷体";
+  font-family: Georgia, Kaiti;
+  -webkit-font-smoothing:antialiased;
   font-size: 56px;
   font-size: 4rem;
   font-weight: 700;
@@ -624,12 +627,12 @@ border-width: 0;
   border-style: none;
 }
 .site-header h2 {
-font-family: Helvetica, Microsoft YaHei, 微软雅黑;
+font-family: normal, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', Kaiti, 'Hiragino Sans GB', sans-serif;
   font-weight: normal;
   font-size: 15px;
   font-size: 1.071428571rem;
   line-height: 1.846153846;
-  color: #757575;
+  color: #303030;
 border-width: 0;
       border-style: none;
 
@@ -771,6 +774,7 @@ border-width: 0;
   clear: both;
 }
 .entry-header {
+  margin-top: 14px;
   margin-bottom: 24px;
   margin-bottom: 1.714285714rem;
 }
@@ -779,23 +783,24 @@ border-width: 0;
   margin-bottom: 1.714285714rem;
 }
 .entry-header .entry-title {
-font-family:  Helvetica, Microsoft YaHei, 微软雅黑, sans-serif;
+font-family:normal, 'Avenir Next', Avenir,'Helvetica Neue', Helvetica, 'Lantinghei SC', Kaiti, 'Hiragino Sans GB', sans-serif;
   font-size: 21px;
   font-size: 1.5rem;
 font-weight:400;
 text-rendering: optimizeLegibility;
-color: #333;
+color: #202020;
   line-height: 1.2;
 text-align: center;
-      
-}
+      }
+
+
 .entry-header .entry-title a {
   text-decoration: none;
 text-align: center;
 }
 .entry-header .entry-format {
-  margin-top: 24px;
-  margin-top: 1.714285714rem;
+  margin-top: 28px;
+  margin-top: 2rem;
   font-weight: 400;
 }
 
@@ -855,7 +860,7 @@ article.sticky .featured-post {
   font-size: 21px;
   font-size: 1.5rem;
 font-weight:400;
-  color: #333;
+color: #202020;
   line-height: 1.5;
 }
 .entry-content h2,
@@ -900,7 +905,7 @@ text-align: center;
 .mu_register p {
   margin: 0 0 24px;
   margin: 0 0 1.714285714rem;
-  line-height: 1.714285714;
+  line-height: 2;
 }
 .entry-content a:visited,
 .comment-content a:visited {
@@ -954,7 +959,7 @@ text-align: center;
 }
 .entry-content code,
 .comment-content code {
-  font-family: Helvetica, Microsoft YaHei, 微软雅黑, Heiti, “黑体”, sans-serif;
+  font-family:normal, 'Avenir Next', Avenir,'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', sans-serif;
   font-size: 12px;
   font-size: 0.857142857rem;
   line-height: 1.5;
@@ -963,7 +968,7 @@ text-align: center;
 .comment-content pre {
   border: 1px solid #ededed;
   color: #666;
-  font-family: Helvetica, Microsoft YaHei, 微软雅黑, Heiti, “黑体”, sans-serif;
+  font-family:normal, 'Avenir Next', Avenir,'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', sans-serif;
   font-size: 12px;
   font-size: 0.857142857rem;
   line-height: 2;
@@ -1059,8 +1064,8 @@ img.aligncenter,
 }
 .site-content article {
   border-bottom: 4px double #ededed;
-  margin-bottom: 72px;
-  margin-bottom: 5.142857143rem;
+  margin-bottom: 42px;
+  margin-bottom: 3rem;
   padding-bottom: 24px;
   padding-bottom: 1.714285714rem;
   word-wrap: break-word;
@@ -1094,8 +1099,8 @@ footer.entry-meta {
 	    font-size: 1rem;
 	    font-weight: normal;
 	    line-height: 1.3em;
-	    color: #666;
-	    font-family: Helvetica, Microsoft YaHei, 微软雅黑, Heiti, “黑体”, sans-serif;
+	    color: #202020;
+	    font-family:normal, 'Avenir Next', Avenir,'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', sans-serif;
 	    margin: 1em 0 .5em 0;
 	    letter-spacing: .1em;
 	    margin-bottom: 1em;
@@ -1132,10 +1137,10 @@ footer.entry-meta {
 	p {
 	    line-height: 1.45em;
 	    margin: .7em 0 0 0;
-	    font-family: Helvetica, Microsoft YaHei, 微软雅黑, Heiti, “黑体”, sans-serif;
+	    font-family:normal, 'Avenir Next', Avenir,'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 微软雅黑, sans-serif;
 	    font-size: 14px;
 	    font-size: 1rem;
-	    color: #101010;
+	    color: #202020;
 	    -webkit-font-smoothing: antialiased;
 	}
 	
@@ -1339,8 +1344,8 @@ text-decoration:none;
   margin: 1.714285714rem 0;
 }
 .comments-area article header {
-  margin: 0 0 48px;
-  margin: 0 0 3.428571429rem;
+  margin: 0 0 14px;
+  margin: 0 0 1rem;
   overflow: hidden;
   position: relative;
 }
@@ -1581,8 +1586,8 @@ border-width: 0;
       border-style: none;
   }
   .site-header h1 {
-    font-size: 36px;
-    font-size: 2.517428517rem;
+    font-size: 42px;
+    font-size: 3rem;
     line-height: 1.846153846;
     margin-bottom: 0;
   }
@@ -1664,14 +1669,14 @@ position:relative;
     display: none;
   }
   .entry-header .entry-title {
-  font-family: Helvetica, Microsoft YaHei, 微软雅黑, sans-serif;
+  font-family: normal, 'Avenir Next', Avenir,'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', sans-serif;
   font-size: 21px;
   font-size: 1.5rem;
 font-weight:400;
   text-rendering: optimizeLegibility;
-  color: #333;
+color: #202020;
   text-align: center;
-  }
+}
   #respond form input[type="text"] {
     width: 46.333333333%;
   }
