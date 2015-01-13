@@ -11,22 +11,6 @@ Template Name: Archives
 
 <?php get_header(); ?>
 
-		<script type="text/javascript">
-			var domainroot="songchunlin.net"
-			function Gsitesearch(curobj){
-				curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
-				}
-
-		</script>
-
-
-		<form action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
-
-			<p class="search">搜索本站：<br />
-			<input name="q" type="hidden" class="texta" />
-			<input name="qfront" type="text" style="width: 180px; text-size: 12px; height: 14px;" /> </p>
-
-		</form><br/ >
  
 
 <table id=arc>
@@ -82,14 +66,12 @@ Template Name: Archives
 
 </body>
 </html>
+
 <br/ >
 <br/ >
-<?php printf( __( 'Tag Archives: %s', 'twentytwelve' ), '<span>' . single_tag_title( '', false ) . '</span>' ); ?>
+文章分类：
 <br/ >
-<?php wp_tag_cloud('number=0'); ?>
-<br/ ><br/ ><br/ >文章分类：<br/ ><br/ >
 <?php wp_list_categories( 'show_count=1&style=none'); ?> 
-<br/ >
-<br/ >
+
 
 <?php get_footer(); ?>
